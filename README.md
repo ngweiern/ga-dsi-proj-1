@@ -3,8 +3,10 @@
 ## Table of Contents
 - [Executive Summary](#Executive-Summary)
 - [Introduction](#Introduction)
+- [Problem Statement](#Problem-Statement)
 - [Overview](#Overview)
 - [Datasets](#Datasets)
+- [Conclusion/Recommendations](#Conclusion/Recommendations)
 
 --- 
 
@@ -25,6 +27,12 @@ Given that the participation rates are highest in states where the SAT is mandat
 ### Introduction
 
 This project is an analysis of the SAT and ACT examinations in both year 2017 and 2018, after the new format for the SAT was released in March 2016. It studies and identifies trends in the aggregate SAT and ACT scores and participation rates from each state in the United States, and synthesizes information from outside research with the data analysis. In so doing, it aims to identify likely factors driving participation rates for both tests, so that suggestions can be made to the College Board to boost SAT participation rates in North Dakota. 
+
+---
+
+### Problem Statement
+
+To boost participation rates in the SAT examination for the state of North Dakota
 
 ---
 
@@ -57,6 +65,8 @@ You can see the source for the 2017 SAT data [here](https://blog.collegevine.com
 
 2018 state-by-state average results and participation for the SAT are available in PDF reports [here](https://reports.collegeboard.org/sat-suite-program-results/state-results). 2018 ACT state-by-state mean composite scores and participation rates are [here](http://www.act.org/content/dam/act/unsecured/documents/cccr2018/Average-Scores-by-State.pdf).
 
+#### Data Dictionary
+
 |Feature|Type|Dataset|Description|
 |:---|:---|:---|:---|
 |**state**|*category*|act_2017, act_2018, sat_2017, sat_2018, combined_2017, combined_2018, final|One of the states in America|
@@ -80,3 +90,11 @@ You can see the source for the 2017 SAT data [here](https://blog.collegevine.com
 |**sat_ebrw_2018**|*int*|sat_2018, combined_2018, final|Score for the SAT's Evidence-Based Reading and Writing section (real number from 1 to 36 in two decimal places, i.e. ℤ ∈ [200,800]) |
 |**sat_math_2018**|*int*|sat_2018, combined_2018, final|Score for the SAT's Math section (real number from 1 to 36 in two decimal places, i.e. ℤ ∈ [200,800]) |
 |**sat_total_2018**|*int*|sat_2018, combined_2018, final|Score for the SAT's Total (real number from 1 to 36 in two decimal places, i.e. ℤ ∈ [400,1600]) |
+
+### Conclusion/Recommendations
+
+Although the participation rates of either test are negatively correlated with each of the scores of the respective test's section, it does not suggest a causal relationship between these pairs of variables, specifically, reducing the scores by making the test more difficult for example would not necessarily result in an increase in the participation rates.
+
+Given that the participation rates are highest in states where the SAT is mandatory and paid for, the College Board could lobby the state government of North Dakota, which has the lowest SAT participation rates for both years and does not mandate either the ACT or SAT nor pays for either tests, to adopt the SAT as the state's compulsory examination for high-schoolers and perhaps even sponsor the test.
+
+Additional data such as the universities within each state and the ranking of the universities throughout the U.S. might provide additional insight into the participation rate of either test as there may be individuals who take one test over the other with the intention of entering his/her desired college which may require either the SAT or the ACT.
