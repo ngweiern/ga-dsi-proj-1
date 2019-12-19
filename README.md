@@ -56,3 +56,17 @@ These data give average SAT and ACT scores by state, as well as participation ra
 You can see the source for the 2017 SAT data [here](https://blog.collegevine.com/here-are-the-average-sat-scores-by-state/), and the source for the 2017 ACT data [here](https://www.act.org/content/dam/act/unsecured/documents/cccr2017/ACT_2017-Average_Scores_by_State.pdf). 
 
 2018 state-by-state average results and participation for the SAT are available in PDF reports [here](https://reports.collegeboard.org/sat-suite-program-results/state-results). 2018 ACT state-by-state mean composite scores and participation rates are [here](http://www.act.org/content/dam/act/unsecured/documents/cccr2018/Average-Scores-by-State.pdf).
+
+|Feature|Type|Dataset|Description|
+|:---|:---|:---|:---|
+|**state**|*category*|ACT/SAT 2017/2018|One of the states in America|
+|**act_participation_201\(7\|8\)**|*float*|ACT 2017/2018|Participation rate (real number from 0 to 1 in two decimal places, i.e. $\mathbb{R} \in [0,1]$)|
+|**act_english_201\(7\|8\)**|*float*|ACT 2017/2018|Score for the ACT's English section (real number from 1 to 36 in two decimal places, i.e. $\mathbb{R} \in [1,36]$)|
+|**act_math_201\(7\|8\)**|*float*|ACT 2017/2018|Score for the ACT's Math section (real number from 1 to 36 in two decimal places, i.e. $\mathbb{R} \in [1,36]$) |
+|**act_reading_201\(7\|8\)**|*float*|ACT 2017/2018|Score for the ACT's Reading section (real number from 1 to 36 in two decimal places, i.e. $\mathbb{R} \in [1,36]$) |
+|**act_science_201\(7\|8\)**|*float*|ACT 2017/2018|Score for the ACT's Science section (real number from 1 to 36 in two decimal places, i.e. $\mathbb{R} \in [1,36]$) |
+|**act_composite_201\(7\|8\)**|*float*|ACT 2017/2018|Score for the ACT's Composite section (real number from 1 to 36 in two decimal places, i.e. $\mathbb{R} \in [1,36]$) |
+|**sat_participation_201\(7\|8\)**|*float*|SAT 2017/2018|Participation rate (real number from 0 to 1 in two decimal places, i.e. $\mathbb{R} \in [0,1]$) |
+|**sat_ebrw_201\(7\|8\)**|*float*|SAT 2017/2018|Score for the SAT's Evidence-Based Reading and Writing section (real number from 1 to 36 in two decimal places, i.e. $\mathbb{Z} \in [200,800]$) |
+|**sat_math_201\(7\|8\)**|*float*|SAT 2017/2018|Score for the SAT's Math section (real number from 1 to 36 in two decimal places, i.e. $\mathbb{Z} \in [200,800]$) |
+|**sat_total_201\(7\|8\)**|*float*|SAT 2017/2018|Score for the SAT's Total (real number from 1 to 36 in two decimal places, i.e. $\mathbb{Z} \in [400,1600]$) |
