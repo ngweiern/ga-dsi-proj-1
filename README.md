@@ -6,7 +6,7 @@
 - [Problem Statement](#Problem-Statement)
 - [Overview](#Overview)
 - [Datasets](#Datasets)
-- [Conclusion/Recommendations](#Conclusion/Recommendations)
+- [Conclusion and Recommendations](#Conclusion-and-Recommendations)
 
 --- 
 
@@ -91,7 +91,7 @@ You can see the source for the 2017 SAT data [here](https://blog.collegevine.com
 |**sat_math_2018**|*int*|sat_2018, combined_2018, final|Score for the SAT's Math section (real number from 1 to 36 in two decimal places, i.e. ℤ ∈ [200,800]) |
 |**sat_total_2018**|*int*|sat_2018, combined_2018, final|Score for the SAT's Total (real number from 1 to 36 in two decimal places, i.e. ℤ ∈ [400,1600]) |
 
-### Conclusion/Recommendations
+### Conclusion and Recommendations
 
 Although the participation rates of either test are negatively correlated with each of the scores of the respective test's section, it does not suggest a causal relationship between these pairs of variables, specifically, reducing the scores by making the test more difficult for example would not necessarily result in an increase in the participation rates.
 
