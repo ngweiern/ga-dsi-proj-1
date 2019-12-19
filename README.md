@@ -59,14 +59,24 @@ You can see the source for the 2017 SAT data [here](https://blog.collegevine.com
 
 |Feature|Type|Dataset|Description|
 |:---|:---|:---|:---|
-|**state**|*category*|ACT/SAT 2017/2018|One of the states in America|
-|**act_participation_201\(7\|8\)**|*float*|ACT 2017/2018|Participation rate (real number from 0 to 1 in two decimal places, i.e. $\mathbb{R} \in [0,1]$)|
-|**act_english_201\(7\|8\)**|*float*|ACT 2017/2018|Score for the ACT's English section (real number from 1 to 36 in two decimal places, i.e. $\mathbb{R} \in [1,36]$)|
-|**act_math_201\(7\|8\)**|*float*|ACT 2017/2018|Score for the ACT's Math section (real number from 1 to 36 in two decimal places, i.e. $\mathbb{R} \in [1,36]$) |
-|**act_reading_201\(7\|8\)**|*float*|ACT 2017/2018|Score for the ACT's Reading section (real number from 1 to 36 in two decimal places, i.e. $\mathbb{R} \in [1,36]$) |
-|**act_science_201\(7\|8\)**|*float*|ACT 2017/2018|Score for the ACT's Science section (real number from 1 to 36 in two decimal places, i.e. $\mathbb{R} \in [1,36]$) |
-|**act_composite_201\(7\|8\)**|*float*|ACT 2017/2018|Score for the ACT's Composite section (real number from 1 to 36 in two decimal places, i.e. $\mathbb{R} \in [1,36]$) |
-|**sat_participation_201\(7\|8\)**|*float*|SAT 2017/2018|Participation rate (real number from 0 to 1 in two decimal places, i.e. $\mathbb{R} \in [0,1]$) |
-|**sat_ebrw_201\(7\|8\)**|*float*|SAT 2017/2018|Score for the SAT's Evidence-Based Reading and Writing section (real number from 1 to 36 in two decimal places, i.e. $\mathbb{Z} \in [200,800]$) |
-|**sat_math_201\(7\|8\)**|*float*|SAT 2017/2018|Score for the SAT's Math section (real number from 1 to 36 in two decimal places, i.e. $\mathbb{Z} \in [200,800]$) |
-|**sat_total_201\(7\|8\)**|*float*|SAT 2017/2018|Score for the SAT's Total (real number from 1 to 36 in two decimal places, i.e. $\mathbb{Z} \in [400,1600]$) |
+|**state**|*category*|act_2017, act_2018, sat_2017, sat_2018, combined_2017, combined_2018, final|One of the states in America|
+|**act_participation_2017**|*float*|act_2017, combined_2017, final|Participation rate (real number from 0 to 1 in two decimal places, i.e. ℝ ∈ [0,1])|
+|**act_english_2017**|*float*|act_2017, combined_2017, final|Score for the ACT's English section (real number from 1 to 36 in two decimal places, i.e. ℝ ∈ [1,36])|
+|**act_math_2017**|*float*|act_2017, combined_2017, final|Score for the ACT's Math section (real number from 1 to 36 in two decimal places, i.e. ℝ ∈ [1,36]) |
+|**act_reading_2017**|*float*|act_2017, combined_2017, final|Score for the ACT's Reading section (real number from 1 to 36 in two decimal places, i.e. ℝ ∈ [1,36]) |
+|**act_science_2017**|*float*|act_2017, combined_2017, final|Score for the ACT's Science section (real number from 1 to 36 in two decimal places, i.e. ℝ ∈ [1,36]) |
+|**act_composite_2017**|*float*|act_2017, combined_2017, final|Score for the ACT's Composite section (real number from 1 to 36 in two decimal places, i.e. ℝ ∈ [1,36]) |
+|**sat_participation_2017**|*float*|sat_2017, combined_2017, final|Participation rate (real number from 0 to 1 in two decimal places, i.e. ℝ ∈ [0,1]) |
+|**sat_ebrw_2017**|*int*|sat_2017, combined_2017, final|Score for the SAT's Evidence-Based Reading and Writing section (real number from 1 to 36 in two decimal places, i.e. ℤ ∈ [200,800]) |
+|**sat_math_2017**|*int*|sat_2017, combined_2017, final|Score for the SAT's Math section (real number from 1 to 36 in two decimal places, i.e. ℤ ∈ [200,800]) |
+|**sat_total_2017**|*int*|sat_2017, combined_2017, final|Score for the SAT's Total (real number from 1 to 36 in two decimal places, i.e. ℤ ∈ [400,1600]) |
+|**act_participation_2018**|*float*|act_2018, combined_2018, final|Participation rate (real number from 0 to 1 in two decimal places, i.e. ℝ ∈ [0,1])|
+|**act_english_2018**|*float*|act_2018, combined_2018, final|Score for the ACT's English section (real number from 1 to 36 in two decimal places, i.e. ℝ ∈ [1,36])|
+|**act_math_2018**|*float*|act_2018, combined_2018, final|Score for the ACT's Math section (real number from 1 to 36 in two decimal places, i.e. ℝ ∈ [1,36]) |
+|**act_reading_2018**|*float*|act_2018, combined_2018, final|Score for the ACT's Reading section (real number from 1 to 36 in two decimal places, i.e. ℝ ∈ [1,36]) |
+|**act_science_2018**|*float*|act_2018, combined_2018, final|Score for the ACT's Science section (real number from 1 to 36 in two decimal places, i.e. ℝ ∈ [1,36]) |
+|**act_composite_2018**|*float*|act_2018, combined_2018, final|Score for the ACT's Composite section (real number from 1 to 36 in two decimal places, i.e. ℝ ∈ [1,36]) |
+|**sat_participation_2018**|*float*|sat_2018, combined_2018, final|Participation rate (real number from 0 to 1 in two decimal places, i.e. ℝ ∈ [0,1]) |
+|**sat_ebrw_2018**|*int*|sat_2018, combined_2018, final|Score for the SAT's Evidence-Based Reading and Writing section (real number from 1 to 36 in two decimal places, i.e. ℤ ∈ [200,800]) |
+|**sat_math_2018**|*int*|sat_2018, combined_2018, final|Score for the SAT's Math section (real number from 1 to 36 in two decimal places, i.e. ℤ ∈ [200,800]) |
+|**sat_total_2018**|*int*|sat_2018, combined_2018, final|Score for the SAT's Total (real number from 1 to 36 in two decimal places, i.e. ℤ ∈ [400,1600]) |
